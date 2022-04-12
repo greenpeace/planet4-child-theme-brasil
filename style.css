@@ -287,16 +287,10 @@ input.hs-input.error {
 .btn-donate {
   background-color: #f36b35;
   color: #FFF;
-  text-transform: uppercase;
 }
 
 .btn-donate:hover {
   background-color:#ee562d; color:#FFF;
-}
-
-/* Header */
-a.nav-link {
-  text-transform: uppercase;
 }
 
 @media screen and (max-width: 800px) {
