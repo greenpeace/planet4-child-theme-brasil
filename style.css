@@ -564,4 +564,12 @@ justify-content: center;
 	margin-top: 0px;
 	}
 }
+
+/*
+This is a workaround to hide the Donate menu on mobile until the next release.
+*/
+.burger-menu-item:last-child {
+  display: none;
+}
+
 /* end p4 mvp */
