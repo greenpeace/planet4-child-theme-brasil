@@ -506,13 +506,13 @@ html a:hover {
     font-size: 15px !important;
 }
 
-a.external-link:after {
+/* .gpbr-remove-external-link a.external-link:after {
     content: none!important;
 }
 
-.pdf-link:after {
+.gpbr-remove-external-link .pdf-link:after {
     content: none !important;
-}
+} */
 
 .wp-block-media-text {
     pointer-events: none;
@@ -613,41 +613,39 @@ a.external-link:after {
         padding: 1em;
     }
     .latest-news-query-loop {
+        margin: 1em !important;
+    }
+}
+@media (max-width:600px) {
+    .gpbr-mobile-centered-text-and-title h1 {
+        text-align: center;
+    }
+    .gpbr-mobile-centered-text-and-title p {
+        text-align: center;
+        padding: 10px;
+    }
+    .gpbr-mobile-centered-text-and-title a {
+        margin: 1em;
+        font-size: 1em !important;
+    }
+    .mobile-hidden {
+        display: none;
+    }
+    .gpbr-news-and-history-loop-query {
         margin: 1em;
     }
-    @media (max-width:600px) {
-        .gpbr-mobile-centered-text-and-title h1 {
-            text-align: center;
-        }
-        .gpbr-mobile-centered-text-and-title p {
-            text-align: center;
-            padding: 10px;
-        }
-        .gpbr-mobile-centered-text-and-title a {
-            margin: 1em;
-            font-size: 1em !important;
-        }
-        .mobile-hidden {
-            display: none;
-        }
-        .gpbr-news-and-history-loop-query {
-            margin: 1em;
-        }
-        .latest-news-query-loop {
-            margin: 1em;
-        }
-        .gpbr-high-level-view-all-news {
-            text-align: center;
-        }
-        .gpbr-latest-news-podcast-title {
-            margin-left: 0px;
-            text-align: center;
-        }
-        .gpbr-low-margin {
-            margin-top: 0px;
-        }
-        .latest-news-query-loop {
-            margin: 1em;
-        }
+    .latest-news-query-loop {
+        margin: 1em !important;
     }
+    .gpbr-high-level-view-all-news {
+        text-align: center;
+    }
+    .gpbr-latest-news-podcast-title {
+        margin-left: 0px;
+        text-align: center;
+    }
+    .gpbr-low-margin {
+        margin-top: 0px;
+    }
+}
 /* end P4 MVP */
