@@ -5,7 +5,7 @@ Description: Child theme for the Brasil website in the Planet 4 Wordpress projec
 Author: Greenpeace International
 Author URI: https://github.com/greenpeace
 Template: planet4-master-theme
-Version: 0.2
+Version: 0.2.6
 License: GNU General Public License v3 or later
 License URI: https://www.gnu.org/licenses/gpl-3.0.html
 Tags: light, accessibility-ready
@@ -41,7 +41,6 @@ Text Domain: planet4-child-theme-brasil
     padding-left: 3vh;
     margin-bottom: 0 !important;
 }
-
 
 /* Campo de Entrada */
 
@@ -351,7 +350,6 @@ input.hs-input.error {
     }
 }
 
-
 /*gpbr p4 mvp*/
 
 html a:hover {
@@ -439,19 +437,13 @@ html a:hover {
 .menu-item-36425 ul {
     overflow-y: hidden;
 }
-
+/* support a cause block */
 .gpbr-has-shadow-background {
-    padding: 1em;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
     border-radius: 5px;
-}
-
-.gpbr-how-to-help-shadow-block h3 {
-    font-size: 1.3em;
-}
-
-.gpbr-has-shadow-background {
-    padding: 0px !important;
+    padding: 0px;
+    margin-top: 16px;
+    font-family: Roboto;
 }
 
 .gpbr-has-shadow-background p {
@@ -461,6 +453,7 @@ html a:hover {
 
 .gpbr-has-shadow-background h3 {
     padding-left: 1em;
+    font-size: 1.3em;
 }
 
 .gpbr-has-shadow-background a {
@@ -470,6 +463,11 @@ html a:hover {
 .gpbr-how-to-help-shadow-block a {
     color: #000;
 }
+.gpbr-has-shadow-background img {
+    margin-top: -16px;
+    border-radius: 5px 5px 0px 0px;
+}
+/* end support a cause */
 
 .wp-block-post-author__name {
     font-size: 0.8em;
@@ -506,26 +504,17 @@ html a:hover {
     font-size: 15px !important;
 }
 
-/* .gpbr-remove-external-link a.external-link:after {
+.gpbr-remove-external-link a.external-link:after {
     content: none!important;
 }
 
 .gpbr-remove-external-link .pdf-link:after {
     content: none !important;
-} */
+}
 
 .wp-block-media-text {
     pointer-events: none;
 }
-
-.gpbr-has-shadow-background img {
-    margin-top: -16px;
-}
-
-.gpbr-has-shadow-background {
-    margin-top: 16px;
-}
-
 
 /*issues block*/
 
@@ -555,7 +544,6 @@ html a:hover {
     margin-bottom: 0;
     line-height: 1.1;
 }
-
 
 /*end issues block*/
 
