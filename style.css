@@ -5,7 +5,7 @@ Description: Child theme for the Brasil website in the Planet 4 Wordpress projec
 Author: Greenpeace International
 Author URI: https://github.com/greenpeace
 Template: planet4-master-theme
-Version: 0.2.6
+Version: 0.2.7
 License: GNU General Public License v3 or later
 License URI: https://www.gnu.org/licenses/gpl-3.0.html
 Tags: light, accessibility-ready
@@ -452,7 +452,7 @@ html a:hover {
 }
 
 .gpbr-has-shadow-background h3 {
-    padding-left: 1em;
+    padding-left: 0.9em;
     font-size: 1.3em;
 }
 
@@ -465,7 +465,7 @@ html a:hover {
 }
 .gpbr-has-shadow-background img {
     margin-top: -16px;
-    border-radius: 5px 5px 0px 0px;
+    border-radius: 5px 5px 0px 0px !important;
 }
 /* end support a cause */
 
