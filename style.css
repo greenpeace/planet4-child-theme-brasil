@@ -449,10 +449,11 @@ html a:hover {
 .gpbr-has-shadow-background p {
     padding-left: 1em;
     padding-right: 1em;
+    font-size: 15px;
 }
 
 .gpbr-has-shadow-background h3 {
-    padding-left: 0.9em;
+    padding-left: 0.7em;
     font-size: 1.3em;
 }
 
