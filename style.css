@@ -513,10 +513,6 @@ html a:hover {
     content: none !important;
 }
 
-.wp-block-media-text {
-    pointer-events: none;
-}
-
 /*issues block*/
 
 .issues-columns {
