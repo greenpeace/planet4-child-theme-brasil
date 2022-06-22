@@ -113,3 +113,4 @@ add_filter( 'gform_field_validation_4_23', function ( $result, $value, $form, $f
 
     return $result;
 }, 10, 4 );
+
