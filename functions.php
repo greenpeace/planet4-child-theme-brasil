@@ -118,3 +118,19 @@ add_filter( 'gform_field_validation_3_8', function ( $result, $value, $form, $fi
 
     return $result;
 }, 10, 4 );
+
+
+/*
+* Setting the Phone Mask for Gravity Forms usage
+*/
+
+function gpbr_add_brazilian_phone_mask_gf( $phone_formats ) {
+	$phone_formats['br'] = array(
+		'label'       => 'Telefone celular',
+		'mask'        => '99-99999-9999',
+		'regex'       => '/^[1-9]{2}-9[0-9]{4}-[0-9]{4}$/',
+	);
+	return $phone_formats;
+}
+
+add_filter( 'gform_phone_formats', 'gpbr_add_brazilian_phone_mask_gf', 10, 2 );
