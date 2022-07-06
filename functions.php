@@ -126,7 +126,7 @@ add_filter( 'gform_field_validation_3_8', function ( $result, $value, $form, $fi
 
 function gpbr_add_brazilian_phone_mask_gf( $phone_formats ) {
 	$phone_formats['br'] = array(
-		'label'       => 'Telefone celular',
+		'label'       => 'Brasileiro com 9 dígitos e DDD',
 		'mask'        => '99-99999-9999',
 		'regex'       => '/^[1-9]{2}-9[0-9]{4}-[0-9]{4}$/',
 	);
