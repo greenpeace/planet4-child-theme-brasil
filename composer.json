@@ -30,5 +30,11 @@
 		}
 	},
 	"require": {
+		"wpackagist-plugin/wp-smushit": "3.10.2"
+	},
+	"config": {
+		"allow-plugins": {
+			"composer/installers": true
+		}
 	}
 }
