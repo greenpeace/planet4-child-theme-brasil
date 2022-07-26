@@ -162,3 +162,14 @@ function gpbr_add_brazilian_phone_mask_gf( $phone_formats ) {
 }
 
 add_filter( 'gform_phone_formats', 'gpbr_add_brazilian_phone_mask_gf', 10, 2 );
+
+/*
+* Displaying URL parameter in a shortcode for front-end 
+*/
+function URLParam( $atts ) {  
+    extract( shortcode_atts( array(
+        'param' => 'param',
+    ), $atts ) );
+    return $_GET[$param];  
+}
+add_shortcode('URLParam', 'URLParam'); 
