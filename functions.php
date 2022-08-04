@@ -24,18 +24,6 @@ function p4_brasil_allowed_blocks( $allowed_blocks, $context ) {
 }
 
 /**
- * Allows the Dashicons for non-logged users
- */
-
-add_action( 'wp_enqueue_scripts', 'dashicons_front_end' );
-
-function dashicons_front_end() {
-
-   wp_enqueue_style( 'dashicons' );
-
-}
-
-/**
  *  Amazônia que precisamos - Check if user is underage at Gravity Forms birthdate input
  */
 $field = GFFormsModel::get_field( $form, 1 );
