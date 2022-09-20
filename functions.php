@@ -188,4 +188,3 @@ add_filter( 'gform_field_validation_10_8', function ( $result, $value, $form, $f
 
     return $result;
 }, 10, 4 );
-
