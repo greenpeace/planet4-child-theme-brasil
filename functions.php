@@ -203,5 +203,6 @@ function gpbr_add_audima_script() {
         </script>
     <?php
 }
-add_action( 'wp_footer', 'gpbr_add_audima_script' );
+add_action( 'wp_footer', 'gpbr_add_audima_script', 99999 );
+
 
