@@ -189,3 +189,19 @@ add_filter( 'gform_field_validation_10_8', function ( $result, $value, $form, $f
     return $result;
 }, 10, 4 );
 
+/**
+ * Adding the Handtalk Plugin for trial
+ */
+
+function gpbr_add_audima_script() {
+	?>
+        <script src="https://plugin.handtalk.me/web/latest/handtalk.min.js"></script>
+        <script>
+            var ht = new HT({
+                token: "4be5ec2df3adefd57d1266cbb8d39d05"
+            });
+        </script>
+    <?php
+}
+add_action( 'wp_footer', 'gpbr_add_audima_script' );
+
