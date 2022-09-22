@@ -193,15 +193,6 @@ add_filter( 'gform_field_validation_10_8', function ( $result, $value, $form, $f
  * Adding the Handtalk Plugin for trial
  */
 
-function gpbr_add_audima_header () {
-    ?>
-<meta 
-	http-equiv="Content-Security-Policy"
-	content="img-src 'self' blob: <https://handtalk.me/;">
-/>
-    <?php
-}
-add_action( 'wp_head' , 'gpbr_add_audima_header' );
 
 function gpbr_add_audima_script() {
 	?>
