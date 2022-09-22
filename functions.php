@@ -193,16 +193,24 @@ add_filter( 'gform_field_validation_10_8', function ( $result, $value, $form, $f
  * Adding the Handtalk Plugin for trial
  */
 
+function gpbr_add_audima_header () {
+    ?>
+<meta 
+	http-equiv="Content-Security-Policy"
+	content="img-src 'self' blob: <https://handtalk.me/;">
+/>
+    <?php
+}
+add_action( 'wp_head' , 'gpbr_add_audima_header' );
+
 function gpbr_add_audima_script() {
 	?>
-        <script src="https://plugin.handtalk.me/web/latest/handtalk.min.js"></script>
-        <script>
-            var ht = new HT({
-                token: "4be5ec2df3adefd57d1266cbb8d39d05"
-            });
-        </script>
+    <script src="https://plugin.handtalk.me/web/latest/handtalk.min.js"></script>
+    <script>
+        var ht = new HT({
+            token: "4be5ec2df3adefd57d1266cbb8d39d05"
+        });
+    </script>
     <?php
 }
 add_action( 'wp_footer', 'gpbr_add_audima_script', 99999 );
-
-
