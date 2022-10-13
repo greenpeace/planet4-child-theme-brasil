@@ -49,19 +49,6 @@ function URLParam( $atts ) {
 }
 add_shortcode('URLParam', 'URLParam'); 
 
-
-/**
- * Add Audima script after the_title webhook on all post pages 
- */
-add_action( 'the_title', function ( $title ): string {
-    global $post;
-    if( 'page' === $post->post_type ) { ?>
-        <div id='audimaWidget'></div><script src='https://audio4.audima.co/audima-widget.js'></script>
-     <?php
-    }
-    return $title;
-}, 1, 1);
-
 /**
  *  Amazônia que precisamos - Check if user is underage at Gravity Forms birthdate input
  */
