@@ -189,8 +189,6 @@ add_filter( 'gform_field_validation_10_8', function ( $result, $value, $form, $f
     return $result;
 }, 10, 4 );
 
-add_filter( 'gform_confirmation', 'gform_confirmation', 10, 4 );
-
 /**
  *  Proteja o oceano - Check if user is underage at Gravity Forms birthdate input
  */
@@ -218,5 +216,3 @@ add_filter( 'gform_field_validation_13_8', function ( $result, $value, $form, $f
 
     return $result;
 }, 10, 4 );
-
-add_filter( 'gform_confirmation', 'gform_confirmation', 10, 4 );
