@@ -216,3 +216,33 @@ add_filter( 'gform_field_validation_13_8', function ( $result, $value, $form, $f
 
     return $result;
 }, 10, 4 );
+
+
+/**
+ * Changes the CSP allowing the load of blob objects
+ */
+function gpbr_custom_csp () {
+    ?>
+<meta 
+    http-equiv="Content-Security-Policy"
+    content="img-src blob:"
+/>
+    <?php
+}
+add_action( 'wp_head' , 'gpbr_custom_csp' );
+
+
+/**
+ * Adding the Handtalk Plugin for trial 
+ */
+function gpbr_add_handtalk_script() {
+    ?>
+    <script src="https://plugin.handtalk.me/web/latest/handtalk.min.js"></script>
+    <script>
+        var ht = new HT({
+            token: "bf8d8856e2fca4ab8adfe34a7644b3f1"
+        });
+    </script>
+    <?php
+}
+add_action( 'wp_footer', 'gpbr_add_handtalk_script', 99999 );
