@@ -221,16 +221,23 @@ add_filter( 'gform_field_validation_13_8', function ( $result, $value, $form, $f
 /**
  * Changes the CSP allowing the load of blob objects
  */
-function gpbr_custom_csp () {
-    ?>
-<meta 
-	http-equiv="Content-Security-Policy"
-	content="img-src 'self' blob: <https://handtalk.me/;">
-/>
-    <?php
-}
-add_action( 'wp_head' , 'gpbr_custom_csp' );
 
+add_action( 'wp_headers', static function ( $headers ): array {
+	if ( empty( $headers['Content-Security-Policy'] ) ) {
+		return $headers;
+	}
+	$headers['Content-Security-Policy'] .= "; img-src 'self' blob: ";
+	return $headers;
+}, 11, 1);
+
+
+
+ ?>
+// <meta 
+// 	http-equiv="Content-Security-Policy"
+// 	content="img-src 'self' blob: <https://handtalk.me/;">
+// />
+   <?php
 
 /**
  * Adding the Handtalk Plugin for trial 
