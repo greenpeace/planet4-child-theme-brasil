@@ -242,7 +242,7 @@ function gpbr_add_handtalk_script()
     <script src="https://plugin.handtalk.me/web/latest/handtalk.min.js"></script>
     <script>
         var ht = new HT({
-            token: "4b892f73a2cb89ce13f319ce03530dd6"
+            token: "40820ef34c22e3e84ffb669c7e31258d"
         });
     </script>
     <?php
