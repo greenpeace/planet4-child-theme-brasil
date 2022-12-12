@@ -4,7 +4,7 @@
  * Includes 
  */
 
-require_once( 'includes/load-styles-from-child-theme.php' )
+require_once( 'includes/load-styles-from-child-theme.php' );
 require_once( 'includes/gravity-forms-petitions.php' );
 require_once( 'includes/gravity-forms-brazilian-phone-mask.php' );
 require_once( 'includes/csp-headers.php' );
