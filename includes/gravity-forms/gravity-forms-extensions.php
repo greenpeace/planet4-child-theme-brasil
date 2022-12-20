@@ -24,6 +24,7 @@ add_filter('gform_phone_formats', 'gpbr_add_brazilian_phone_mask_gf', 10, 2);
  *
  * @return mixed
  */
+
 function gpbr_client_side_gravityforms_prefill( $form ) {
 	$supported_field_types = [
 		'GF_Field_Text',
