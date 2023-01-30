@@ -444,12 +444,14 @@ html a:hover {
     padding: 0px;
     margin-top: 16px;
     font-family: Roboto;
+    position: relative;
 }
 
 .gpbr-has-shadow-background p {
     padding-left: 1em;
     padding-right: 1em;
     font-size: 15px;
+    margin-bottom: 100px;
 }
 
 .gpbr-has-shadow-background h3 {
@@ -457,8 +459,15 @@ html a:hover {
     font-size: 1.3em;
 }
 
-.gpbr-has-shadow-background a {
+.gpbr-has-shadow-background .is-style-cta {
+    position: absolute;
+    bottom: 0;
+    padding-top: 2em;
     margin-bottom: 1em;
+}
+
+.gpbr-has-shadow-background a {
+    margin-bottom: 1em;    
 }
 
 .gpbr-how-to-help-shadow-block a {
