@@ -20,4 +20,4 @@ require_once( 'includes/csp-headers.php' );
 require_once( 'includes/petitions/manifesto-pela-agroecologia.php' );
 require_once( 'includes/petitions/proteja-os-oceanos.php' );
 require_once( 'includes/petitions/todos-pela-amazonia.php' );
-require_once( 'includes/amazonia-livre-do-garimpo.php' );
+require_once( 'includes/petitions/amazonia-livre-do-garimpo.php' );
