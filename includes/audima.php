@@ -8,3 +8,4 @@ function add_audima_after_post_title($title) {
     return $title;
 }
 add_filter('the_title', 'add_audima_after_post_title');
+
