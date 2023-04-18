@@ -14,8 +14,14 @@ function add_audima_script() {
                     shareButtons.parentNode.insertBefore(audimaScript, shareButtons.nextSibling);
                 }
             })();
-        </script>';
+        </script>
+        <style>.audima-wrap {
+            float: left !important;
+            width: 100% !important;
+        }
+        .post-details {
+            margin-top: -20px;
+        }</style>';
     }
 }
 add_action('wp_footer', 'add_audima_script');
-
