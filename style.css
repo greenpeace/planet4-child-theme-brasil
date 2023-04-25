@@ -303,16 +303,6 @@ input.hs-input.error {
     max-width: 100% !important;
 }
 
-.btn-donate {
-    background-color: #f36b35;
-    color: #FFF;
-}
-
-.btn-donate:hover {
-    background-color: #ee562d;
-    color: #FFF;
-}
-
 @media screen and (max-width: 800px) {
     .tbl35clear,
     .tbl50clear,
