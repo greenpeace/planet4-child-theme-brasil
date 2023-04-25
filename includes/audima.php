@@ -8,20 +8,13 @@ function add_audima_script() {
                 if (shareButtons) {
                     var audimaWidget = document.createElement("div");
                     audimaWidget.id = "audimaWidget";
-                    shareButtons.parentNode.insertBefore(audimaWidget, shareButtons.nextSibling);
+                    shareButtons.parentNode.insertBefore(audimaWidget, shareButtons);
                     var audimaScript = document.createElement("script");
                     audimaScript.src = "https://audio4.audima.co/audima-widget.js";
-                    shareButtons.parentNode.insertBefore(audimaScript, shareButtons.nextSibling);
+                    shareButtons.parentNode.insertBefore(audimaScript, shareButtons);
                 }
             })();
-        </script>
-        <style>.audima-wrap {
-            float: left !important;
-            width: 100% !important;
-        }
-        .post-details {
-            margin-top: -20px;
-        }</style>';
+        </script>';
     }
 }
 add_action('wp_footer', 'add_audima_script');
