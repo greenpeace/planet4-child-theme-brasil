@@ -12,8 +12,7 @@ require_once( 'includes/jquery-cdn-import.php' );
 require_once( 'includes/handtalk-scripts.php' );
 require_once( 'includes/csp-headers.php' );
 require_once( 'includes/audima.php' );
-require_once( 'includes/mobile-donate-button.php' );
-
+require_once( 'includes/mobile-donate-button-v1.php' );
 
 /**
  * Petition page includes by GPBR

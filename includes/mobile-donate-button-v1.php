@@ -50,9 +50,7 @@ function add_mobile_custom_donate_button() {
             #nav-mobile {
                 margin-bottom: 2em;
             }
-            #nav-mobile-menu ul {
-                display: none !important;
-            }
+
         </style>
         <script>
             function hide(obj) {
