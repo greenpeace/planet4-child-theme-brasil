@@ -6,7 +6,7 @@
 $field = GFFormsModel::get_field($form, 1);
 $date_type = $field->dateType;
 
-add_filter('gform_field_validation_9_23', function ($result, $value, $form, $field) {
+add_filter('gform_field_validation_24_08', function ($result, $value, $form, $field) {
     if ($result['is_valid']) {
         if (is_array($value)) {
             $value = array_values($value);
