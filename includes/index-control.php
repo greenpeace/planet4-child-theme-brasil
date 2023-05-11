@@ -7,4 +7,4 @@ function noindex_confirmation_pages() {
         echo '<meta name="robots" content="noindex">';
     }
 }
-add_action('wp_head', 'noindex_confirmation_pages');
+add_action('wp_head', 'noindex_confirmation_pages', 1);
