@@ -1,6 +1,6 @@
 <?php
 /**
- * Adding the Handtalk Plugin for trial
+ * Injects the Handtalk script on WP footer
  */
 function gpbr_add_handtalk_script()
 {
