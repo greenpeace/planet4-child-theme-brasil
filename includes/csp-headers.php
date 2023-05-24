@@ -1,7 +1,7 @@
 <?php
 
 /**
- * Update the CSP rules and allow the load of blob objects from Handtalk sources
+ * Update the CSP rules and allow the load of blob objects
  */
 
 add_action('wp_headers', function ($headers): array {
