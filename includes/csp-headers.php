@@ -1,8 +1,7 @@
 <?php
 
 /**
- * Updates the CSP allowing the load of blob objects from Handtalk source
- * added by rick - GPBR
+ * Update the CSP rules and allow the load of blob objects from Handtalk sources
  */
 
 add_action('wp_headers', function ($headers): array {
