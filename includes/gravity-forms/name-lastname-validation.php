@@ -1,9 +1,9 @@
 <?php
 
-add_filter( 'gform_field_validation', 'validar_nome_sobrenome', 10, 4 );
-function validar_nome_sobrenome( $result, $value, $form, $field ) {
+add_filter( 'gform_field_validation', 'name_lastname_validation', 10, 4 );
+function name_lastname_validation( $result, $value, $form, $field ) {
     if ( $field->type == 'name' ) { // Verifica se o campo é do tipo "name"
-        $pattern = '/^[a-zA-ZÀ-ÿỹẽ]+([\',. -][a-zA-ZÀ-ÿỹẽ]+)*$/u'; // Expressão regular para aceitar letras, acentuações, espaço, hífen, vírgula, ponto, apóstrofo e espaço
+        $pattern = '/^[a-zA-ZÀ-ÿỹẽ]+([\',. -][a-zA-ZÀ-ÿỹẽ]+)*$/u';
 
         if ( ! preg_match( $pattern, $value ) ) {
             $result['is_valid'] = false;
