@@ -7,7 +7,7 @@
 require_once( 'includes/load-styles-from-child-theme.php' );
 require_once( 'includes/gravity-forms/brazilian-phone-mask.php' );
 require_once( 'includes/gravity-forms/client-side-dynamic-form-population.php' );
-require_once( 'includes/gravity-forms/name-lastname-validation.php' );
+// require_once( 'includes/gravity-forms/name-lastname-validation.php' );
 require_once( 'includes/wordpress-allows-loop-query-block.php' );
 require_once( 'includes/displays-url-params-on-frontend.php' );
 require_once( 'includes/jquery-cdn-import.php' );
