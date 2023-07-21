@@ -541,6 +541,10 @@ html a:hover {
     line-height: 1.1;
 }
 
+.issues-columns p {
+    font-family: "Roboto";
+}
+
 /*end issues block*/
 
 @media only screen and (min-width: 992px) {
@@ -635,3 +639,49 @@ html a:hover {
 
 
 /* end P4 MVP */
+
+
+:root {
+    --font-family-primary: "Roboto";
+    --font-family-secondary: "Lora";
+    --font-family-tertiary: "SourceSans3";
+  }
+  
+  .nav-link {
+      font-family: "Roboto";
+      font-weight: 600;
+  }
+  h1, h2, h3, h4, h5, h6 {
+      font-family: "Roboto" !important;
+      font-weight: 600 !important;
+  }
+  p {
+      font-family: "Lora";
+  }
+  .nav-donate a {
+      font-family: "Roboto" !important;
+      font-weight: 700;
+  }
+  .wp-block-planet4-blocks-carousel-header p {
+      font-family: "Roboto" !important;
+    font-weight: 500 !important;
+  font-size: 18px !important;
+  line-height: 29px !important;
+      font-style: normal !important;
+  }
+  .wp-element-button {
+      font-family: "Roboto" !important;
+      font-weight: 600 !important;
+  }
+  
+  .btn-primary {
+      font-weight: 500;
+  }
+  
+  .gpbr-how-to-help-shadow-block p {
+      font-family: "Roboto";
+  }
+  
+  .wp-block-post-template p {
+      font-size: 18px;
+  }
