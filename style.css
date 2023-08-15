@@ -721,3 +721,6 @@ p {
 	font-weight: 500 !important;
 		font-family: "Roboto" !important;
 }
+.gform_button {
+  font-weight: 600 !important;
+}
