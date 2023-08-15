@@ -724,3 +724,17 @@ p {
 .gform_button {
   font-weight: 600 !important;
 }
+.single-post-meta, 
+.single-post-author, .logged-in-as, .comments-section p {
+  font-family: "Roboto" !important;
+}  
+
+
+.single-post-meta, 
+.single-post-author, .logged-in-as, .comments-section p {
+  font-family: "Roboto" !important;
+}  
+
+#gdpr-comments-label {
+	font-size: 14px !important;
+}
