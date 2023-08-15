@@ -694,3 +694,20 @@ p {
 .load-more-btn {
   font-weight: 600;
 }
+
+.gravity-theme p, .gravity  .ginput_container_text, .gravity-theme .ginput_container_text input, .gravity-theme .ginput_container_email input, .gravity-theme .ginput_container_phone input {
+	font-family: "Roboto" !important;
+}
+
+.gfield--type-html p {
+	line-height: 20px;
+}
+
+.progress-bar p {
+	font-family: "Roboto";
+}
+
+.ginput_container label {
+	font-family: "Roboto" !important;
+	font-size: 16px !important;
+}
