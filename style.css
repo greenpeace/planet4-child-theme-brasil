@@ -700,7 +700,7 @@ p {
 }
 
 .gfield--type-html p {
-	line-height: 20px;
+	line-height: 25px;
 }
 
 .progress-bar p {
@@ -738,3 +738,4 @@ p {
 #gdpr-comments-label {
 	font-size: 14px !important;
 }
+
