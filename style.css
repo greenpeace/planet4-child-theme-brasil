@@ -739,3 +739,6 @@ p {
 	font-size: 14px !important;
 }
 
+.gpbr-has-shadow-background a {
+	border: 0px !important;
+}
