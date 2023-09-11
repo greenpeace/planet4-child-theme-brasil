@@ -175,7 +175,7 @@ input.hs-input.error {
   display: none;
 }
 
-.hs-form.stacked .inputs-list > li label {
+.hs-form.stacked .inputs-list>li label {
   text-align: left;
   -webkit-font-smoothing: antialiased;
   display: -webkit-inline-box;
@@ -227,10 +227,12 @@ input.hs-input.error {
 }
 
 @media screen and (max-width: 572px) {
+
   .page-template table,
   .post-content table {
     max-width: 100% !important;
   }
+
   .page-template table td,
   .post-content table td {
     min-width: inherit;
@@ -299,12 +301,14 @@ input.hs-input.error {
 }
 
 @media screen and (max-width: 800px) {
+
   .tbl35clear,
   .tbl50clear,
   .tbl65clear {
     width: 100% !important;
     display: block;
   }
+
   .txt60p,
   .txt70p,
   .txt80p {
@@ -312,15 +316,19 @@ input.hs-input.error {
     margin-right: 5%;
     margin-left: 5%;
   }
+
   .hide-mobile {
     display: none;
   }
+
   .show-mobile {
     display: block;
   }
+
   .view-nomobile {
     display: none;
   }
+
   .view-mobile {
     display: inherit;
   }
@@ -330,6 +338,7 @@ input.hs-input.error {
   .view-nomobile {
     display: inherit;
   }
+
   .view-mobile {
     display: none;
   }
@@ -422,6 +431,7 @@ html a:hover {
 .menu-item-36425 ul {
   overflow-y: hidden;
 }
+
 /* support a cause block */
 .gpbr-has-shadow-background {
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
@@ -458,10 +468,12 @@ html a:hover {
 .gpbr-how-to-help-shadow-block a {
   color: #000;
 }
+
 .gpbr-has-shadow-background img {
   margin-top: -16px;
   border-radius: 5px 5px 0px 0px !important;
 }
+
 /* end support a cause */
 
 .wp-block-post-author__name {
@@ -546,13 +558,16 @@ html a:hover {
   .latest-news-query-loop {
     margin: 150px;
   }
+
   .gpbr-mobile-centered-text-and-title h1 {
     font-size: 3.5em;
   }
+
   .gpbr-high-level-view-all-news {
     padding-right: 180px;
     margin-top: 15px;
   }
+
   .gpbr-media-and-text-custom img {
     max-width: 550px;
   }
@@ -567,66 +582,85 @@ html a:hover {
     text-align: center;
     font-size: 3em;
   }
+
   .gpbr-mobile-centered-text-and-title p {
     text-align: center;
     margin: 0px;
   }
+
   .gpbr-mobile-centered-text-and-title .wp-block-columns {
     display: block;
   }
+
   .mobile-hidden {
     display: none;
   }
+
   .gpbr-news-and-history-featured-img {
     width: 90% !important;
   }
+
   .gpbr-latest-news-title-high-level {
     margin-left: 1em;
   }
+
   .gpbr-low-margin {
     margin-top: 0px;
   }
+
   .gpbr-latest-news-home {
     padding: 1em;
   }
+
   .latest-news-query-loop {
     margin: 1em;
   }
+
   .gpbr-latest-news {
     padding: 1em;
   }
+
   .latest-news-query-loop {
     margin: 1em !important;
   }
 }
+
 @media (max-width: 600px) {
   .gpbr-mobile-centered-text-and-title h1 {
     text-align: center;
   }
+
   .gpbr-mobile-centered-text-and-title p {
     text-align: center;
     padding: 10px;
   }
+
   .gpbr-mobile-centered-text-and-title a {
     margin: 1em;
     font-size: 1em !important;
   }
+
   .mobile-hidden {
     display: none;
   }
+
   .gpbr-news-and-history-loop-query {
     margin: 1em;
   }
+
   .latest-news-query-loop {
     margin: 1em !important;
   }
+
   .gpbr-high-level-view-all-news {
     text-align: center;
   }
+
   .gpbr-latest-news-podcast-title {
     margin-left: 0px;
     text-align: center;
   }
+
   .gpbr-low-margin {
     margin-top: 0px;
   }
@@ -646,6 +680,7 @@ html a:hover {
   font-family: "Roboto";
   font-weight: 600;
 }
+
 h1,
 h2,
 h3,
@@ -655,13 +690,16 @@ h6 {
   font-family: "Roboto" !important;
   font-weight: 600 !important;
 }
+
 p {
   font-family: "Lora";
 }
+
 .nav-donate a {
   font-family: "Roboto" !important;
   font-weight: 700;
 }
+
 .wp-block-planet4-blocks-carousel-header p {
   font-family: "Roboto" !important;
   font-weight: 500 !important;
@@ -669,6 +707,7 @@ p {
   line-height: 29px !important;
   font-style: normal !important;
 }
+
 .wp-element-button {
   font-family: "Roboto" !important;
   font-weight: 600 !important;
@@ -695,50 +734,70 @@ p {
   font-weight: 600;
 }
 
-.gravity-theme p, .gravity  .ginput_container_text, .gravity-theme .ginput_container_text input, .gravity-theme .ginput_container_email input, .gravity-theme .ginput_container_phone input {
-	font-family: "Roboto" !important;
+.gravity-theme p,
+.gravity .ginput_container_text,
+.gravity-theme .ginput_container_text input,
+.gravity-theme .ginput_container_email input,
+.gravity-theme .ginput_container_phone input {
+  font-family: "Roboto" !important;
 }
 
 .gfield--type-html p {
-	line-height: 25px;
+  line-height: 25px;
 }
 
 .progress-bar p {
-	font-family: "Roboto";
+  font-family: "Roboto";
 }
 
 .ginput_container label {
-	font-family: "Roboto" !important;
-	font-size: 16px !important;
+  font-family: "Roboto" !important;
+  font-size: 16px !important;
 }
 
 #nav-main-desktop a {
-	font-weight: 600;
-	font-family: "Roboto" !important;
+  font-weight: 600;
+  font-family: "Roboto" !important;
 }
 
 .nav-submenu a {
-	font-weight: 500 !important;
-		font-family: "Roboto" !important;
+  font-weight: 500 !important;
+  font-family: "Roboto" !important;
 }
+
 .gform_button {
   font-weight: 600 !important;
 }
-.single-post-meta, 
-.single-post-author, .logged-in-as, .comments-section p {
+
+.single-post-meta,
+.single-post-author,
+.logged-in-as,
+.comments-section p {
   font-family: "Roboto" !important;
-}  
+}
 
 
-.single-post-meta, 
-.single-post-author, .logged-in-as, .comments-section p {
+.single-post-meta,
+.single-post-author,
+.logged-in-as,
+.comments-section p {
   font-family: "Roboto" !important;
-}  
+}
 
 #gdpr-comments-label {
-	font-size: 14px !important;
+  font-size: 14px !important;
 }
 
 .gpbr-has-shadow-background a {
-	border: 0px !important;
+  border: 0px !important;
+}
+
+.wp-block-media-text figcaption {
+  margin-top: -30px;
+  color: #fff;
+  background-color: #000 !important;
+  font-weight: 500;
+  text-align: right;
+  margin-right: 1em;
+  font-family: Roboto;
 }
