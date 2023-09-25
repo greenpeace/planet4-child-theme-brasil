@@ -34,3 +34,4 @@ require_once( 'includes/petitions/futuro-livre-de-plasticos.php' );
 require_once( 'includes/petitions/basta-de-tragedias-chuvas.php' );
 require_once( 'includes/petitions/amazonia-livre-de-garimpo.php' );
 require_once( 'includes/petitions/mineracao-em-aguas-profundas.php' );
+require_once( 'includes/petitions/carta-chega-de-fogo-na-amazonia.php' );
