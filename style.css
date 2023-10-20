@@ -372,6 +372,16 @@ html a:hover {
 
 .gpbr-padding-top-media-text {
   padding-top: 2em;
+  padding-bottom: 2em;
+  margin-top: 0px !important;
+  margin-bottom: 0px !important;
+}
+
+.gpbr-text-margin {
+  padding-top: 0em;
+  padding-bottom: 2em;
+  margin-top: 0px !important;
+  margin-bottom: 0px !important;
 }
 
 .gpbr-topics-navigation-title h4 {
@@ -800,4 +810,16 @@ p {
   text-align: right;
   margin-right: 1em;
   font-family: Roboto;
+}
+
+.ginput_container_date select {
+  min-width: 73px !important;
+  border-radius: 4px !important;
+  border: 1px solid #a3a5a7 !important;
+  margin-right: 20px !important;
+
+}
+
+.gfield_date_dropdown_month {
+  min-width: px !important;
 }
