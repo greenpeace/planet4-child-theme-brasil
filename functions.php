@@ -35,5 +35,4 @@ require_once( 'includes/petitions/basta-de-tragedias-chuvas.php' );
 require_once( 'includes/petitions/amazonia-livre-de-garimpo.php' );
 require_once( 'includes/petitions/mineracao-em-aguas-profundas.php' );
 require_once( 'includes/petitions/carta-chega-de-fogo-na-amazonia.php' );
-require_once( 'includes/petitions/marco-temporal-nao.php' );
 require_once( 'includes/petitions/petroleo-na-amazonia-nao.php' );
