@@ -823,3 +823,7 @@ p {
 .gfield_date_dropdown_month {
   min-width: px !important;
 }
+
+.progress-bar {
+  display: none !important;
+}
