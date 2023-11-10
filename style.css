@@ -175,7 +175,7 @@ input.hs-input.error {
   display: none;
 }
 
-.hs-form.stacked .inputs-list>li label {
+.hs-form.stacked .inputs-list > li label {
   text-align: left;
   -webkit-font-smoothing: antialiased;
   display: -webkit-inline-box;
@@ -227,7 +227,6 @@ input.hs-input.error {
 }
 
 @media screen and (max-width: 572px) {
-
   .page-template table,
   .post-content table {
     max-width: 100% !important;
@@ -301,7 +300,6 @@ input.hs-input.error {
 }
 
 @media screen and (max-width: 800px) {
-
   .tbl35clear,
   .tbl50clear,
   .tbl65clear {
@@ -786,7 +784,6 @@ p {
   font-family: "Roboto" !important;
 }
 
-
 .single-post-meta,
 .single-post-author,
 .logged-in-as,
@@ -817,13 +814,8 @@ p {
   border-radius: 4px !important;
   border: 1px solid #a3a5a7 !important;
   margin-right: 20px !important;
-
 }
 
 .gfield_date_dropdown_month {
   min-width: px !important;
-}
-
-.progress-bar {
-  display: none !important;
 }
