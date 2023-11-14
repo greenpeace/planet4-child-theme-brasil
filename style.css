@@ -819,3 +819,17 @@ p {
 .gfield_date_dropdown_month {
   min-width: px !important;
 }
+
+.has-dark-blue-background-color {
+  background-color: #1f4912 !important;
+}
+
+.has-dark-blue-background-color p,
+.has-dark-blue-background-color h1,
+.has-dark-blue-background-color h2,
+.has-dark-blue-background-color h3,
+.has-dark-blue-background-color h4,
+.has-dark-blue-background-color h5,
+.has-dark-blue-background-color h6 {
+  color: #fff !important;
+}

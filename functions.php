@@ -16,6 +16,8 @@ require_once( 'includes/index-control.php' );
 require_once( 'includes/audima.php' );
 require_once( 'includes/reading-time-string-translation.php' );
 
+require_once ('includes/add-custom-block-after-all-blog-posts.php');
+
 /**
  * Functions that are not in use yet
  */
