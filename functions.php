@@ -1,7 +1,7 @@
 <?php
 
 /**
- * Custom code includes by GPBR
+ * Custom code included by GPBR
  */
 
 require_once( 'includes/load-styles-from-child-theme.php' );
@@ -15,18 +15,17 @@ require_once( 'includes/csp-headers.php' );
 require_once( 'includes/index-control.php' );
 require_once( 'includes/audima.php' );
 require_once( 'includes/reading-time-string-translation.php' );
-
 require_once ('includes/add-custom-block-after-all-blog-posts.php');
 
 /**
- * Functions that are not in use yet
- */
-// require_once( 'includes/mobile-donate-card.php' );
-//require_once( 'includes/media-and-text-block-copyrights.php' );
-// require_once( 'includes/gravity-forms/name-lastname-validation.php' );
-
+ * Functions not in use
+ *
+ * require_once( 'includes/mobile-donate-card.php' );
+ * require_once( 'includes/media-and-text-block-copyrights.php' );
+ * require_once( 'includes/gravity-forms/name-lastname-validation.php' );
+*/
 /**
- * Petition page includes by GPBR
+ * Petition forms age validation - legacy
  */
 
 require_once( 'includes/petitions/manifesto-pela-agroecologia.php' );
