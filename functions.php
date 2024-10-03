@@ -19,21 +19,6 @@ require_once ('includes/add-custom-block-after-all-blog-posts.php');
 
 /**
  * Functions not in use
- *
- * require_once( 'includes/mobile-donate-card.php' );
  * require_once( 'includes/media-and-text-block-copyrights.php' );
  * require_once( 'includes/gravity-forms/name-lastname-validation.php' );
 */
-/**
- * Petition forms age validation - legacy
- */
-
-require_once( 'includes/petitions/manifesto-pela-agroecologia.php' );
-require_once( 'includes/petitions/proteja-os-oceanos.php' );
-require_once( 'includes/petitions/todos-pela-amazonia.php' );
-require_once( 'includes/petitions/futuro-livre-de-plasticos.php' );
-require_once( 'includes/petitions/basta-de-tragedias-chuvas.php' );
-require_once( 'includes/petitions/amazonia-livre-de-garimpo.php' );
-require_once( 'includes/petitions/mineracao-em-aguas-profundas.php' );
-require_once( 'includes/petitions/carta-chega-de-fogo-na-amazonia.php' );
-require_once( 'includes/petitions/petroleo-na-amazonia-nao.php' );
