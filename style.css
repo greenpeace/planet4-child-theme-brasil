@@ -816,3 +816,10 @@ p {
 .has-dark-blue-background-color h6 {
   color: #fff !important;
 }
+
+
+/* fix media and text margin */
+  
+  .wp-block-media-text.alignfull .wp-block-media-text__content {
+    max-width: inherit !important;
+  }
