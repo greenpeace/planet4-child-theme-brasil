@@ -5,4 +5,4 @@ function hide_default_share_buttons_on_petitions() {
         echo '<style>.share-buttons { display: none !important; }</style>';
     }
 }
-add_action('wp_head', 'hide_default_share_buttons_on_petitions');
+add_action('wp_footer', 'hide_default_share_buttons_on_petitions');
