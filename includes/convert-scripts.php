@@ -2,7 +2,7 @@
 function inject_convert_script() {
     ?>
 <!-- begin Convert Experiences code-->
- <script type="text/javascript" src="//cdn-4.convertexperiments.com/v1/js/100414404-100415998.js?environment=staging"></script>
+ <script data-cfasync="false" type="text/javascript" src="//cdn-4.convertexperiments.com/v1/js/100414404-100415998.js?environment=staging"></script>
  <!-- end Convert Experiences code -->
     <?php
 }

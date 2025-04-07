@@ -16,7 +16,7 @@ require_once( 'includes/index-control.php' );
 require_once( 'includes/audima.php' );
 require_once( 'includes/reading-time-string-translation.php' );
 require_once ('includes/add-custom-block-after-all-blog-posts.php');
-//require_once ('includes/convert-scripts.php');
+require_once ('includes/convert-scripts.php');
 require_once ('includes/hide-default-share-buttons-on-petitions.php');
 
 /**
