@@ -627,9 +627,6 @@ html a:hover {
 }
 
 @media (max-width: 600px) {
-  .gpbr-mobile-centered-text-and-title p {
-    padding: 10px;
-  }
 
   .mobile-hidden {
     display: none;

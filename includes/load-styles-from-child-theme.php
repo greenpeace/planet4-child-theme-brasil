@@ -8,5 +8,6 @@
  function enqueue_child_styles() {
      $css_creation = filectime(get_stylesheet_directory() . '/style.css');
      wp_enqueue_style('child-style', get_stylesheet_directory_uri() . '/style.css', [], $css_creation);
+     
  }
  
