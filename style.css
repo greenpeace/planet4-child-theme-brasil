@@ -12,276 +12,6 @@ Tags: light, accessibility-ready
 Text Domain: planet4-child-theme-brasil
 */
 
-/* Formulário com fundo */
-
-.hs-form {
-  font-family: -apple-system, system-ui, system-ui, "Segoe UI", Roboto,
-    "Helvetica Neue", Arial, sans-serif;
-  margin-top: 2vh;
-  color: #fff;
-  padding-top: 3vh;
-  background-color: #eaeaea;
-  border-radius: 5px;
-  width: 50vh;
-  box-shadow: 3px 3px 10px 1px rgba(0, 0, 0, 0.1);
-}
-
-.hs-form:hover {
-  background-color: #e5e5e5;
-}
-
-/* Campos (Distância vertical, padding) */
-
-.hs-form .field div.input {
-  margin-top: -1.3vh;
-}
-
-.hs-form .field {
-  padding-left: 3vh;
-  margin-bottom: 0 !important;
-}
-
-/* Campo de Entrada */
-
-.hs-input[type="text"],
-.hs-input[type="email"],
-.hs-input[type="tel"] {
-  margin: 0 0 0.5rem;
-  font-size: 0.89rem;
-  padding: 0.6rem 0;
-  border-radius: 4px;
-  border: none;
-  border: 1px solid rgb(7, 67, 101, 0.2);
-  background-color: #fff;
-  box-shadow: 2px 2px 5px 1px rgba(0, 0, 0, 0.1);
-}
-
-form input[type="text"]:hover,
-form input[type="email"]:hover,
-form input[type="tel"]:hover {
-  background-color: #fff;
-}
-
-.hs-input[name="state"] {
-  height: 40px;
-  margin: 0 0 0.2rem;
-  font-size: 0.89rem;
-  border-radius: 4px;
-  border: 1px solid rgb(7, 67, 101, 0.2);
-  background-color: #fff;
-  box-shadow: 2px 2px 5px 1px rgba(0, 0, 0, 0.1);
-}
-
-.hs-input[name="state"]:hover {
-  background-color: #fff;
-}
-
-/* Submit Text */
-
-.hs-form input {
-  color: #a8a8a8;
-}
-
-.hs-form .hs-input {
-  padding-left: 10px;
-}
-
-/* Thank you Text */
-
-.submitted-message {
-  color: #5197c3 !important;
-  font-size: 1rem;
-  padding-top: 2vh;
-}
-
-/* Campos Select & Error */
-
-input.hs-input.error {
-  border: 1px solid rgb(7, 67, 101, 0.6) !important;
-  box-shadow: 2px 2px 5px 1px rgba(0, 0, 0, 0.1) !important;
-}
-
-/* Botão */
-
-.hs_submit {
-  padding: 0 3vh;
-}
-
-.hs-form .actions {
-  margin-left: 0 !important;
-  padding-left: 0 !important;
-}
-
-.hs-form input[type="submit"] {
-  font-family: -apple-system, system-ui, system-ui, "Segoe UI", Roboto,
-    "Helvetica Neue", Arial, sans-serif;
-  width: 98%;
-  padding: 1.5vh 0;
-  text-transform: uppercase;
-  font-size: 1.3rem;
-  color: #fff;
-  border-radius: 4px;
-  font-weight: 600;
-  -webkit-appearance: none;
-  background-color: #ed42a0;
-  border: none;
-  box-shadow: 2px 2px 8px 2px rgba(0, 0, 0, 0.1);
-}
-
-.hs-button,
-.hs-button:hover,
-.hs-button:hover:not(.inactive),
-.hs-button:focus,
-.hs-button:active,
-.hs-button:active:not(.inactive):not(.link) {
-  background-image: none;
-  background-color: #ed42a0 !important;
-  box-shadow: 2px 2px 8px 2px rgba(0, 0, 0, 0.1) !important;
-  border: none !important;
-}
-
-.hs-form input[type="submit"]:hover {
-  background: #d60876 !important;
-  color: #fff;
-  border: none !important;
-  box-shadow: none !important;
-}
-
-.hs-form.actions {
-  background: transparent;
-  margin-top: 0 !important;
-  margin-bottom: 0 !important;
-  padding: 0 !important;
-  border-top: none;
-}
-
-/* Títulos */
-
-.hs-form.stacked label {
-  text-align: left;
-  font-family: -apple-system, system-ui, system-ui, "Segoe UI", Roboto,
-    "Helvetica Neue", Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  font-weight: 600;
-  font-size: 1.1rem;
-  letter-spacing: normal;
-  color: #292b2c;
-  padding: 0 0 0 0;
-}
-
-/* Mensagem de Obrigatório */
-
-.hs-form-required {
-  display: none;
-}
-
-.hs-form.stacked .inputs-list > li label {
-  text-align: left;
-  -webkit-font-smoothing: antialiased;
-  display: -webkit-inline-box;
-  font-weight: 600;
-  font-size: 1rem;
-  letter-spacing: normal;
-  color: #274454;
-  padding: 0 0 0 2px;
-}
-
-.hs-form .hs-error-msgs inputs-list,
-.hs_error_rollup {
-  padding-left: 3vh;
-}
-
-.hs-form ul {
-  color: #274454;
-  font-size: 0.8rem;
-}
-
-.hs-form ul li:before {
-  content: "*";
-}
-
-.hs-form textarea {
-  width: 96%;
-  line-height: 20px;
-  font-size: 14px;
-  height: 150px;
-  text-align: left;
-}
-
-.hs-form fieldset {
-  border: 0;
-  padding: 0;
-  margin: 0;
-  max-width: 80% !important;
-}
-
-.page-header-content {
-  display: block !important;
-}
-
-#mapa-tartarugas {
-  width: 100%;
-  height: 35rem !important;
-  padding: 0;
-  margin: 0;
-}
-
-@media screen and (max-width: 572px) {
-  .page-template table,
-  .post-content table {
-    max-width: 100% !important;
-  }
-
-  .page-template table td,
-  .post-content table td {
-    min-width: inherit;
-  }
-}
-
-.li12 {
-  font-size: 1.3rem;
-}
-
-.txt60p {
-  width: 60% !important;
-  margin-right: 20%;
-  margin-left: 20%;
-}
-
-.txt70p {
-  width: 70% !important;
-  margin-right: 15%;
-  margin-left: 15%;
-}
-
-.txt80p {
-  width: 80% !important;
-  margin-right: 10%;
-  margin-left: 10%;
-}
-
-.tbl35clear {
-  width: 34% !important;
-  display: inline-table;
-}
-
-.tbl50clear {
-  width: 49% !important;
-  display: inline-table;
-}
-
-.tbl65clear {
-  width: 65% !important;
-  display: inline-table;
-  vertical-align: top;
-}
-
-.tbl35clear tr,
-.tbl50clear tr,
-.tbl65clear tr,
-.tblclear tr {
-  background-color: unset !important;
-}
 
 .show-mobile {
   display: none;
@@ -300,20 +30,7 @@ input.hs-input.error {
 }
 
 @media screen and (max-width: 800px) {
-  .tbl35clear,
-  .tbl50clear,
-  .tbl65clear {
-    width: 100% !important;
-    display: block;
-  }
 
-  .txt60p,
-  .txt70p,
-  .txt80p {
-    width: 90% !important;
-    margin-right: 5%;
-    margin-left: 5%;
-  }
 
   .hide-mobile {
     display: none;
@@ -431,10 +148,10 @@ html a:hover {
   font-size: 15px;
   vertical-align: middle;
 }
-
+/* 
 .gpbr-has-roboto-font {
   font-family: Roboto;
-}
+} */
 
 .menu-item-36425 ul {
   overflow-y: hidden;
@@ -446,7 +163,7 @@ html a:hover {
   border-radius: 5px;
   padding: 0px;
   margin-top: 16px;
-  font-family: Roboto;
+  /* font-family: Roboto; */
   position: relative;
 }
 
@@ -539,7 +256,7 @@ html a:hover {
   padding: 20px 16px;
   border-radius: 4px;
   margin-bottom: 20px;
-  font-family: Roboto;
+  /* font-family: Roboto; */
 }
 
 .issues-columns .wp-block-column .wp-block-media-text {
@@ -556,9 +273,9 @@ html a:hover {
   line-height: 1.1;
 }
 
-.issues-columns p {
+/* .issues-columns p {
   font-family: "Roboto";
-}
+} */
 
 /*end issues block*/
 
@@ -656,7 +373,7 @@ html a:hover {
 
 /* end P4 MVP */
 
-/* force the old font families over the new visual identity */
+/* force the old font families over the new visual identity
 
 :root {
   --font-family-primary: "Roboto";
@@ -769,7 +486,7 @@ p {
 .logged-in-as,
 .comments-section p {
   font-family: "Roboto" !important;
-}
+} */
 
 #gdpr-comments-label {
   font-size: 14px !important;
