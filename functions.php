@@ -18,6 +18,7 @@ require_once( 'includes/reading-time-string-translation.php' );
 require_once ('includes/add-custom-block-after-all-blog-posts.php');
 require_once ('includes/hide-default-share-buttons-on-petitions.php');
 require_once ('includes/convert-scripts.php');
+require_once ('includes/custom-fonts.php');
 
 
 /**
