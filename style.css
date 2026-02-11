@@ -12,6 +12,9 @@ Tags: light, accessibility-ready
 Text Domain: planet4-child-theme-brasil
 */
 
+.progress-bar-title {
+  font-family: 'SourceSans3' !important;
+}
 
 .show-mobile {
   display: none;
