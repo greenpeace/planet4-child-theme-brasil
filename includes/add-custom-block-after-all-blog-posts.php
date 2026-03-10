@@ -5,12 +5,12 @@
 
 function adicionar_html_condicional($content) {
     if (is_single() && get_post_type() == 'post') {
-        $content .= '<div class="has-background gpbr-custom-blog-block"><p>Sem a ajuda de pessoas como você, nosso trabalho não seria possível. O Greenpeace Brasil é uma organização independente - não aceitamos recursos de empresas, governos ou partidos políticos. Por favor, faça uma <b>doação mensal</b> hoje mesmo e nos ajude a ampliar nosso trabalho de pesquisa, monitoramento e denúncia de crimes ambientais. Clique abaixo e faça a diferença!</p><div class="wp-block-buttons is-content-justification-center is-layout-flex wp-container-2"><div class="wp-block-button"><a href="https://doe.greenpeace.org.br/mensal?cc=701Pm000018T4RYIA0&entrypoint=blog_donate" target="_blank" class="wp-block-button__link wp-element-button">Doe agora</a></div></div></div>      
+        $content .= '<div class="has-background gpbr-custom-blog-block"><p>Sem a ajuda de pessoas como você, nosso trabalho não seria possível. O Greenpeace Brasil é uma organização independente - não aceitamos recursos de empresas, governos ou partidos políticos. Por favor, faça uma <b>doação mensal</b> hoje mesmo e nos ajude a ampliar nosso trabalho de pesquisa, monitoramento e denúncia de crimes ambientais. Clique abaixo e faça a diferença!</p><div class="wp-block-buttons is-content-justification-center is-layout-flex wp-container-2"><div class="wp-block-button"><a href="https://doe.greenpeace.org.br/a?cc=701Pm000018T4RYIA0&entrypoint=blog_donate" target="_blank" class="wp-block-button__link wp-element-button">Doe agora</a></div></div></div>      
         <style>
         .gpbr-custom-blog-block p {
             padding-top: 2em !important;
             padding-left: 2em !important;
-            padding-right: 2em !important;
+            padding-right: 1px !important;
         }
         .gpbr-custom-blog-block {
             border: dotted 3px #1f4912;
