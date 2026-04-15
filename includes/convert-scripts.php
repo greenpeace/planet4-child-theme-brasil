@@ -4,16 +4,16 @@
         if (strpos($current_url, 'www-dev') !== false) {
         ?>
         <!-- begin Convert Experiences code (staging) --> <script data-cfasync="false" type="text/javascript" src="//cdn-4.convertexperiments.com/v1/js/100414404-100415998.js?environment=staging"></script><!-- end Convert Experiences code -->
-        <?php
-            } else if (strpos($current_url, 'planet4.test') !== false) {
+        <?php } else if (strpos($current_url, 'planet4.test') !== false) {
         ?>
         <!-- begin Convert Experiences code--><script type="text/javascript" src="//cdn-4.convertexperiments.com/v1/js/100414404-100415998.js?environment=staging"></script><!-- end Convert Experiences code -->
-        <?php
-            } else {
+
+        <?php } else if (strpos($current_url, 'https://www.greenpeace.org/brasil/nossas-conquistas') !== false) {
+        ?>
+        <?php } else {
         ?>
         <!-- begin Convert Experiences code--><script type="text/javascript" src="//cdn-4.convertexperiments.com/v1/js/100414404-100415998.js?environment=production"></script><!-- end Convert Experiences code -->
         <?php
-        
       }
     }
   
