@@ -19,15 +19,32 @@ add_action('wp_headers', function (array $headers): array {
         $directives[$parts[0]] = $parts[1] ?? '';
     }
 
+    $default_fallback = $directives['default-src'] ?? "'self' https: 'unsafe-inline'";
+
     if (!isset($directives['worker-src'])) {
-        $fallback = $directives['script-src'] ?? $directives['default-src'] ?? "'self' https:";
-        $directives['worker-src'] = trim(str_replace("'unsafe-inline'", '', $fallback));
+        $directives['worker-src'] = trim(str_replace("'unsafe-inline'", '', $default_fallback));
+    }
+    if (!isset($directives['script-src'])) {
+        $directives['script-src'] = $default_fallback;
+    }
+    if (!isset($directives['frame-src'])) {
+        $directives['frame-src'] = trim(str_replace("'unsafe-inline'", '', $default_fallback));
     }
 
-    foreach (['worker-src', 'connect-src', 'img-src'] as $target) {
+    $additions = [
+        'worker-src'  => ['blob:'],
+        'connect-src' => ['blob:', 'https://sgtmbr.greenpeace.org'],
+        'img-src'     => ['blob:', 'https://sgtmbr.greenpeace.org'],
+        'script-src'  => ['https://sgtmbr.greenpeace.org'],
+        'frame-src'   => ['https://sgtmbr.greenpeace.org'],
+    ];
+
+    foreach ($additions as $target => $items) {
         $sources = preg_split('/\s+/', trim($directives[$target] ?? ''), -1, PREG_SPLIT_NO_EMPTY);
-        if (!in_array('blob:', $sources, true)) {
-            $sources[] = 'blob:';
+        foreach ($items as $item) {
+            if (!in_array($item, $sources, true)) {
+                $sources[] = $item;
+            }
         }
         $directives[$target] = implode(' ', $sources);
     }
