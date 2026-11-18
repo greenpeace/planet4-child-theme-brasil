@@ -2,6 +2,7 @@
 
 /**
  * Update the CSP rules for Perto Digital Accessibility plugin without overwritting the master theme Headers 
+ * Contains a specific rule to ensure the SST loads properly
  */
 
 add_action('wp_headers', function (array $headers): array {
