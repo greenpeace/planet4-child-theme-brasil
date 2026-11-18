@@ -10,7 +10,7 @@ require_once ( 'includes/gravity-forms/client-side-dynamic-form-population.php' 
 require_once ( 'includes/wordpress-allows-loop-query-block.php' );
 require_once ( 'includes/displays-url-params-on-frontend.php' );
 require_once ( 'includes/jquery-cdn-import.php' );
-require_once ( 'includes/csp-headers.php' );
+// require_once ( 'includes/csp-headers.php' );
 require_once ( 'includes/index-control.php' );
 require_once ( 'includes/reading-time-string-translation.php' );
 require_once ( 'includes/add-custom-block-after-all-blog-posts.php' );
